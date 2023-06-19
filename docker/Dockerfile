@@ -5,7 +5,7 @@ EXPOSE 8081/tcp
 ENV FLASK_PORT=8081
 
 
-WORDIR /projects
+WORKDIR /projects
 
 COPY . .
 
